@@ -1,0 +1,141 @@
+{
+        "model": {
+            "type": "select",
+            "property": "custom_model_data",
+            "fallback": {
+                "type": "range_dispatch",
+                "property": "use_duration",
+                "entries": [
+                    {
+                        "threshold": 1,
+                        "model": {
+                            "type": "model",
+                            "model": "item/bow_pulling_0"
+                        }
+                    },
+                    {
+                        "threshold": 13,
+                        "model": {
+                            "type": "model",
+                            "model": "item/bow_pulling_1"
+                        }
+                    },
+                    {
+                        "threshold": 18,
+                        "model": {
+                            "type": "model",
+                            "model": "item/bow_pulling_2"
+                        }
+                    }
+                ],
+                "fallback": {
+                    "type": "model",
+                    "model": "item/bow"
+                }
+            },
+            "cases": [
+                {
+                    "when": "moonsilver_longbow",
+                    "model": {
+                        "type": "range_dispatch",
+                        "property": "use_duration",
+                        "entries": [
+                            {
+                                "threshold": 1,
+                                "model": {
+                                    "type": "model",
+                                    "model": "item/bow/10001_0"
+                                }
+                            },
+                            {
+                                "threshold": 13,
+                                "model": {
+                                    "type": "model",
+                                    "model": "item/bow/10001_1"
+                                }
+                            },
+                            {
+                                "threshold": 18,
+                                "model": {
+                                    "type": "model",
+                                    "model": "item/bow/10001_2"
+                                }
+                            }
+                        ],
+                        "fallback": {
+                            "type": "model",
+                            "model": "item/bow/10001"
+                        }
+                    }
+                },
+                {
+                    "when": "crystalline_shortbow",
+                    "model": {
+                        "type": "range_dispatch",
+                        "property": "use_duration",
+                        "entries": [
+                            {
+                                "threshold": 1,
+                                "model": {
+                                    "type": "model",
+                                    "model": "item/bow/10003_0"
+                                }
+                            },
+                            {
+                                "threshold": 10,
+                                "model": {
+                                    "type": "model",
+                                    "model": "item/bow/10003_1"
+                                }
+                            }
+                        ],
+                        "fallback": {
+                            "type": "model",
+                            "model": "item/bow/10003"
+                        }
+                    }
+                },
+                {
+                    "when": "toxic_blowpipe",
+                    "model": {
+                        "type": "model",
+                        "model": "item/bow/10002"
+                    }
+                },
+                {
+                    "when": "stormbow",
+                    "model": {
+                        "type": "range_dispatch",
+                        "property": "use_duration",
+                        "entries": [
+                            {
+                                "threshold": 1,
+                                "model": {
+                                    "type": "model",
+                                    "model": "item/bow/10004_0"
+                                }
+                            },
+                            {
+                                "threshold": 13,
+                                "model": {
+                                    "type": "model",
+                                    "model": "item/bow/10004_1"
+                                }
+                            },
+                            {
+                                "threshold": 18,
+                                "model": {
+                                    "type": "model",
+                                    "model": "item/bow/10004_2"
+                                }
+                            }
+                        ],
+                        "fallback": {
+                            "type": "model",
+                            "model": "item/bow/10004"
+                        }
+                    }
+                }
+            ]
+        }
+    }

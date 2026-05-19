@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "minecraft:marine"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "minecraft:marine"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "minecraft:marine"
+      }
+    ]
+  }
+}

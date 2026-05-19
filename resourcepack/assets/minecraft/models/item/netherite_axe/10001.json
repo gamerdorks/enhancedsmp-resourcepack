@@ -1,0 +1,6 @@
+{
+    "parent": "item/large_handheld",
+    "textures": {
+        "layer0": "item/survival_textures/forgiveness"
+    }
+}

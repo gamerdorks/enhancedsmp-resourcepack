@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "minecraft:moonsilver"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "minecraft:moonsilver"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "minecraft:moonsilver"
+      }
+    ]
+  }
+}
