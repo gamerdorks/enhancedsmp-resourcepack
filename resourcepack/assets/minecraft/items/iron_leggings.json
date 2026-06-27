@@ -13,6 +13,13 @@
                     "type": "model",
                     "model": "item/iron_leggings/10001"
                 }
+            },
+            {
+                "threshold": 10002,
+                "model": {
+                    "type": "model",
+                    "model": "item/iron_leggings/10002"
+                }
             }
         ]
     }

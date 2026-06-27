@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "minecraft:redmetal"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "minecraft:redmetal"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "minecraft:redmetal"
+      }
+    ]
+  }
+}

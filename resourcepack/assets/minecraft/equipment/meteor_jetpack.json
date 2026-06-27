@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "meteor_jetpack",
+        "use_player_texture": true
+      }
+    ]
+  }
+}
