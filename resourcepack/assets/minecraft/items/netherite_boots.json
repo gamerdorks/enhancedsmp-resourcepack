@@ -27,6 +27,20 @@
                     "type": "model",
                     "model": "item/netherite_boots/10003"
                 }
+            },
+            {
+                "threshold": 10004,
+                "model": {
+                    "type": "model",
+                    "model": "item/netherite_boots/10004"
+                }
+            },
+            {
+                "threshold": 10005,
+                "model": {
+                    "type": "model",
+                    "model": "item/netherite_boots/10005"
+                }
             }
         ]
     }
